@@ -1,0 +1,23 @@
+
+Design Of Experiment- 
+In order to validate the above model we need to perform A/B testing, wherein we will take two groups - test & control and treat test with the spray schedule as per 
+the model above and keep the control group with no spray at all. Then we measure and compare the impact of spray on the test and control groups by performing significance 
+test of the hypothesis such as
+
+Null Hypothesis: The spray is not able to reduce the risk of disease
+Alternate Hypothesis: The spray is able to reduce the risk of disease
+
+ Factors
+ One of the factors that is to be considered is that the test and control group are homogeneous in terms that they have the same crop, soil properties, time & climatic condition.
+ Second important factor is that the spraying is done uniformly across all instances in the test group i.e. all droplets are spread on all the crops of the test group. 
+ Third factor is to have enough sample size to conclude the experiment findings, based on the industry practice we ideally need a minimum of 500 samples to conclude a statistical
+ finding, hence we can divide the same fields(sections in farms/same land) in 500 test samples and 500 control samples so that it meets the above conditions.
+
+ Variables for assessment 
+ To be able to conclude the experiment's success we can measure the disease risk by approximating it to the early signs of disease in the next 5 days of spray schedule which 
+ can be collected by sensors.
+
+ Assessments 
+ 5 days after the spray, both test and control groups can be tested for the health of the crop, like how many crops in test groups are healthy vs. how many of them are healthy 
+ in the control group. We can calculate the mean, the standard deviation and calculate the confidence interval for the difference in mean health of crops in test and control to 
+ be zero. If the confidence is less than 5% we will reject the null hypothesis and accept the alternate hypothesis.
